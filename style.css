@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+  }
+
+body{
+  color:#DFDEFF;
+  background-color: #000026;
+  font-family: Roboto, arial ;
+  padding: 5rem;
+  padding-top: 1.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.laranja{
+ color: #E25A00;
+}
+
+
+#cabecalho{
+  top: 0;
+}
+
+#menu {
+  color:#DFDEFF;
+  text-decoration: none;
+  float: right;
+  margin-top: -3rem;
+  padding: 1rem;
+  }
+
+#minha_foto{
+  display: flex;
+  margin-top: 4rem;
+  margin-left: 3rem;
+  width: 23rem;
+  border: solid #003a11 3px ;
+  border-radius: 10px;
+
+}
+
+#userLogin{
+  display: inline;
+  margin-left: 0.5rem;
+}
+
+#userBio{
+margin-top: 1rem;
+margin-left: 2rem;
+margin-bottom: 3rem;
+}
+
+#lessons{
+  margin-top: 1rem;
+  margin-left: 2rem;
+  margin-bottom: 2rem;
+  }
+#login {
+  text-align: right;
+  text-decoration: none;
+  cursor: pointer;
+  }
+
+#licoes_aprendidas{
+  padding-left: 3rem;
+  float: left;
+  display: grid;
+
+}
+
+#licoes_a_aprender{
+  display: inline-block;
+  }
+
+#lado-esquerdo{
+  border: solid #003a11 2px ;
+  margin-top: 5rem;
+  margin-left: 5rem;
+  margin-right: 5rem; 
+  margin-bottom: 5rem;
+}
+  
+#lado-direito{
+  border: solid #003a11 2px ;
+  margin-top: 5rem;
+  margin-left: 5rem;
+  margin-right: 5rem; 
+  margin-bottom: 5rem;
+}
+
+#rodape{
+  text-align: center;
+  color: #DFDEFF;
+  font-size: 0.6em;
+}
+
