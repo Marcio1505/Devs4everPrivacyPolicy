@@ -2,94 +2,121 @@
     margin: 0;
   }
 
+  @keyframes animation {
+    from {margin-left: -50rem;}
+    to {}
+  }
+
+  @keyframes animations {
+    from {margin-right: -50rem;}
+    to {}
+  }
+
 body{
   color:#DFDEFF;
   background-color: #000026;
   font-family: Roboto, arial ;
-  padding: 5rem;
-  padding-top: 1.5rem;
-  padding-bottom: 0.5rem;
-}
+  padding: 15rem;
+  padding-top: 2rem;
+  }
 
 .laranja{
- color: #E25A00;
-}
-
-
-#cabecalho{
-  top: 0;
-}
+ color: #E25A00
+  }
 
 #menu {
   color:#DFDEFF;
   text-decoration: none;
   float: right;
-  margin-top: -3rem;
+  margin-top: -2.8rem;
   padding: 1rem;
   }
 
-#minha_foto{
-  display: flex;
-  margin-top: 4rem;
-  margin-left: 3rem;
-  width: 23rem;
-  border: solid #003a11 3px ;
-  border-radius: 10px;
-
-}
-
-#userLogin{
-  display: inline;
-  margin-left: 0.5rem;
-}
-
-#userBio{
-margin-top: 1rem;
-margin-left: 2rem;
-margin-bottom: 3rem;
-}
-
-#lessons{
-  margin-top: 1rem;
-  margin-left: 2rem;
-  margin-bottom: 2rem;
-  }
-#login {
-  text-align: right;
+#seletor{
+  color:#DFDEFF;
   text-decoration: none;
-  cursor: pointer;
+  float: right;
+  margin-top: -2.8rem;
+  padding: 1rem;
+  color: #E25A00;
   }
 
-#licoes_aprendidas{
-  padding-left: 3rem;
-  float: left;
-  display: grid;
+.metade{
+  display: flex;
+  justify-content: space-between;
+  text-align: justify;
+  }
+
+.margin8{
+  margin-top: 8rem;
+  margin-bottom: 1rem;
+  }
+
+.margin2{
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  }
+
+.margin4{
+  margin-top: 4rem;
+  margin-bottom: 1rem;
+  }
+
+.paddingRigth{
+  padding-right: 6rem ;
+}
+
+#minha_foto{
+  animation-name: animations;
+  animation-duration: 1s;  
+  animation-fill-mode:both;
+  margin-top: -7rem;;
+  width: 30rem;
+}
+
+#helloword{
+  animation-name: animation;
+  animation-duration: 1s;  
+  animation-fill-mode:both;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  width: 33rem;
+  }
+
+#dados{
+  margin-right: 5rem;
+  margin-left: 5rem;
+  margin-bottom: 5rem;
+  margin-top: 5rem;
+  list-style: none;
+  font-weight: bold
+}
+
+#dados1{
+  font-weight: lighter;
+}
+
+#curriculo{
+  text-align: center;
 
 }
 
-#licoes_a_aprender{
-  display: inline-block;
-  }
-
-#lado-esquerdo{
-  border: solid #003a11 2px ;
-  margin-top: 5rem;
-  margin-left: 5rem;
-  margin-right: 5rem; 
-  margin-bottom: 5rem;
-}
-  
-#lado-direito{
-  border: solid #003a11 2px ;
-  margin-top: 5rem;
-  margin-left: 5rem;
-  margin-right: 5rem; 
-  margin-bottom: 5rem;
+#botton{
+  text-decoration: none;
+  background-color: #E25A00;
+  padding: 0.5rem;
+  color: #DFDEFF;
+  font-weight: bold;
 }
 
 #rodape{
   text-align: center;
   color: #DFDEFF;
   font-size: 0.6em;
-}
+  position: fixed;
+  bottom:0;
+  width:94%;
+  margin: 0 ;
+  padding: 10px 10px;
+  }
 
